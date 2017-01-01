@@ -1,0 +1,7 @@
+'''
+
+'''
+
+class solution(object):
+    def dummy(self):
+        return
