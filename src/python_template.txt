@@ -3,5 +3,5 @@
 '''
 
 class solution(object):
-    def dummy(self):
+    def __init__(self):
         return

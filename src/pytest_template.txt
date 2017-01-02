@@ -1,10 +1,10 @@
 import unittest
 
-from src.YYY.XXX import XXX
+from src.YYY import XXX as tc
 
 class Test(unittest.TestCase):
     def test1(self):
-        tc = XXX.solution()
+        p = tc.solution()
 
 if __name__ == "__main__":
     # import sys;sys.argv = ['', 'Test.testName']
