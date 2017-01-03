@@ -5,7 +5,8 @@ Created on Nov 15, 2016
 '''
 import unittest
 
-from src.others import medianofTwo as tc
+from others import medianofTwo as tc
+
 
 class Test(unittest.TestCase):
     def testOk1(self):

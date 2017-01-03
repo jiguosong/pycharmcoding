@@ -5,10 +5,10 @@ Created on Nov 15, 2016
 '''
 import unittest
 
-from src.dp import longestnonrepsubstr as tc
+from dp.src import longestnonrepsubstr as tc
+
 
 class Test(unittest.TestCase):
-
     def testOK(self):
         p = tc.solution()
         s = "abbca"
@@ -22,7 +22,8 @@ class Test(unittest.TestCase):
         expected = 5
         res = p.findLongestNonrepSubstr(s)
         self.assertNotEqual(res, expected)
-        
+
+
 if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testName']
+    # import sys;sys.argv = ['', 'Test.testName']
     unittest.main()

@@ -5,7 +5,7 @@ Created on Nov 16, 2016
 '''
 import unittest
 
-from src.string import zigzagconversion as tc
+from string import zigzagconversion as tc
 
 class Test(unittest.TestCase):
 

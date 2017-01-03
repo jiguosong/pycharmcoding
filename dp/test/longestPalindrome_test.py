@@ -5,7 +5,7 @@ Created on Nov 15, 2016
 '''
 import unittest
 
-from src.dp import longestPalindrome as tc
+from dp.src import longestPalindrome as tc
 
 
 class Test(unittest.TestCase):

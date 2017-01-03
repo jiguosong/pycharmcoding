@@ -5,7 +5,7 @@ Created on Nov 17, 2016
 '''
 import unittest
 
-from src.matrix import spiralmatrix as tc
+from matrix import spiralmatrix as tc
 
 
 class Test(unittest.TestCase):

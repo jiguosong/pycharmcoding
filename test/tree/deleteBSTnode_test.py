@@ -1,7 +1,7 @@
 import unittest
 
-from src.tree import deleteBSTnode
 import test.tree.MyTreeNode as Tree
+from tree import deleteBSTnode
 
 class Test(unittest.TestCase):
     def test1(self):

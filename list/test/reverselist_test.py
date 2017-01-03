@@ -3,11 +3,11 @@ Created on Dec 20, 2016
 
 @author: songjiguo
 '''
+import numpy as np
 import unittest
 
-import numpy as np
+from list.src import reverselist as tc
 
-from src.list import reverselist as tc
 
 class mylistnode(object):
     '''
@@ -53,7 +53,7 @@ class Test(unittest.TestCase):
         head = a.creatList(10, 1, 10)
         a.printlist(head)
 
-        c = tc.ReverseList(self, head)
+        c = tc.solution.ReverseList(head)
         print()
         while c:
             print(c.val)

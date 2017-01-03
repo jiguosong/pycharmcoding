@@ -5,7 +5,7 @@ Created on Dec 20, 2016
 '''
 import unittest
 
-from src.string import finddifference as tc
+from string import finddifference as tc
 
 
 class Test(unittest.TestCase):

@@ -1,8 +1,8 @@
 class solution(object):
     def findLongestNonrepSubstr(self, s):
-        if (len(s) == 0):
+        if len(s) == 0:
             return 0
-        map = [0] * 255;
+        map = [0] * 255
         left = 0
         ret = 0
 

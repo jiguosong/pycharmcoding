@@ -5,7 +5,7 @@ Created on Nov 15, 2016
 '''
 import unittest
 
-from src.others import rotate_array as tc
+from others import rotate_array as tc
 
 
 class Test(unittest.TestCase):

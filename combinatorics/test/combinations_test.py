@@ -3,10 +3,10 @@ Created on Nov 15, 2016
 
 @author: songjiguo
 '''
+import itertools
 import unittest
 
-from src.combinatorics import combinations as tc
-import itertools
+from combinatorics.src import combinations as tc
 
 
 class Test(unittest.TestCase):

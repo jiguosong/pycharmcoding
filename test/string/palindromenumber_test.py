@@ -5,7 +5,7 @@ Created on Nov 15, 2016
 '''
 import unittest
 
-from src.string import palindromenumber as tc
+from string import palindromenumber as tc
 
 class Test(unittest.TestCase):
 

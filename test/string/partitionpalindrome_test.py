@@ -5,7 +5,8 @@ Created on Nov 15, 2016
 '''
 import unittest
 
-from src.string import partitionpalindrome as tc
+from string import partitionpalindrome as tc
+
 
 class Test(unittest.TestCase):
 

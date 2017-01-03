@@ -1,6 +1,6 @@
 import unittest
 
-from src.others import sum as tc
+from others import sum as tc
 
 class Test(unittest.TestCase):
     def testOK(self):
